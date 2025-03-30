@@ -23,3 +23,14 @@ public class CollaboratorCallException extends RuntimeException {
 
 
 }
+
+
+/**
+ * 1. Qué encontraste
+ *  * Constructores redundantes
+ *      - el primer constructor podria eliminarse
+
+ *  * Falta de documentación:
+ *      - No se especifica en que contexto se lanza cada exepción
+
+ */

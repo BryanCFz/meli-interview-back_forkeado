@@ -1,0 +1,43 @@
+************************************************************************************************************************
+    PROYECTO: meli-interview-back
+************************************************************************************************************************
+
+    ***CLASES-DEL-PROYECTO***
+        1. [UserController.class]
+        2. [SubscriptionService.class]
+        3. [User.class]
+        4. [UserSession.class]
+        5. [SubscriptionDAO.class]
+        6. [Subscription.class]
+        7. [UserNotLoggedInException.class]
+        8. [CollaboratorCallException.class]
+
+
+    ***ESTRUCTURA-DE-VISUALIZACIÓN***
+        1.0.0.0.  [UserController.class]
+        2.0.0.0.  [SubscriptionService.class]
+        2.1.0.0.       [User.class]
+        2.1.1.0.           [UserSession.class]
+        2.1.1.1.               [CollaboratorCallException.class]
+        3.0.0.0.       [SubscriptionDAO.class]
+        3.1.0.0.           [CollaboratorCallException.class]
+        4.0.0.0.       [Subscription.class]
+        5.0.0.0.       [UserNotLoggedInException.class]
+
+
+
+
+
+ 5. Otros puntos
+ * Pruebas Unitarias
+    + ausencia de pruebas unitarias
+
+6. Manejo de sesiones
+ * El código solo verifica si el usuario esta logeado está en la lista de amigos, pero no revisa si está activo.
+ * Podría agregarse una validación de sesión activa
+
+7. Falta de documentación
+ * falta de javadocs por mét0d0
+ * falta de swagger u otra herramienta para apoyo de documentación
+
+
